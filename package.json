@@ -1,0 +1,22 @@
+{
+  "name": "express-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roncohen/express-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roncohen/express-test/issues"
+  },
+  "homepage": "https://github.com/roncohen/express-test",
+  "dependencies": {
+    "opbeat": "^3.5.2"
+  }
+}
