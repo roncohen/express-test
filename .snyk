@@ -1,0 +1,6 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:shell-quote:20160621':
+    - foreman > shell-quote:
+        patched: '2016-09-15T07:46:53.397Z'
