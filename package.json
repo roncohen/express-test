@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nf start"
+    "start": "nf start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
   "dependencies": {
     "express": "^4.13.4",
     "foreman": "1.4.1",
-    "opbeat": "^3.5.2"
-  }
+    "opbeat": "^3.5.2",
+    "snyk": "^1.19.1"
+  },
+  "snyk": true
 }
